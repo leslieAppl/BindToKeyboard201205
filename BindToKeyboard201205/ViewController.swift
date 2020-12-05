@@ -10,11 +10,13 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var sendTxtView: UITextField!
+    @IBOutlet weak var bindKeyView2: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.bindToKeyboard()
+//        bindKeyView2.bindToKeyboard()
 //        sendTxtView.bindToKeyboard()
         setupView()
     }
