@@ -16,8 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.bindToKeyboard()
-//        bindKeyView2.bindToKeyboard()
-//        sendTxtView.bindToKeyboard()
+
         setupView()
     }
 
